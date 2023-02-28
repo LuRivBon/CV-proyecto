@@ -1,0 +1,108 @@
+body {
+  background-color: lightgreen;
+  margin-left: 100px
+}
+
+h1 {
+  font-family: Open Sans;
+  color: darkgreen;
+  text-align: left-side;
+  letter-spacing: 3px;
+  background-color:   white;
+}
+img {  
+  display: block;
+  border: 50%;
+  border-radius: 50%
+}
+h2 {
+  font-family: Open Sans;
+  color: darkgreen;
+  text-align: left-side;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Open Sans;
+  text-align: left-side;
+  color: black;
+  letter-spacing: 3px;
+}
+  
+tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+<style>
+body {font-family: Arial;}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid  #006600;
+  background-color: #f1f1f1;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.tab button {
+  background-color: #006600;
+  float: center;
+  border: green;
+  outline: none;
+  cursor: pointer;
+  padding: 40px 40px;
+  transition: 0.3s;
+  font-size: 20px;
+  font-family: Open Sans;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #009933;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 6px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+h3 {
+ font-family: Open Sans; 
+ color: green;
+ text-align: left-side;
+}
+h4 {
+ font-family: Open Sans; 
+ color: green;
+ text-align: left-side;
+}
+h5 {
+ font-family: Open Sans; 
+ color: green;
+ text-align: left-side;
+}
+h6 {
+  font-family: Open Sans;
+  color: darkgreen;
+  text-align: left-side;
+}
+tabcontent {
+  animation: fadeEffect 1s; 
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+  
+  icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
